@@ -1,6 +1,6 @@
 filetype on
 syntax on
-colorscheme delek
+colorscheme emg1
 
 set number
 set nowrap
@@ -19,3 +19,13 @@ map <D-A-LEFT> <C-w>h
 map <D-A-DOWN> <C-w><C-w>
 map <D-A-UP> <C-w>W
 
+let python_highlight_all = 1
+
+let &t_SI = "\e[1 q"
+let &t_EI = "\e[2 q"
+
+:function Spellon()
+: set spell spelllang=en_us
+: hi clear SpellBad
+: hi SpellBad cterm=underline
+:endfunction
