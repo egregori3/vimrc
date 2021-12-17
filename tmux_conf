@@ -1,0 +1,8 @@
+set-option -g history-limit 5000
+bind -n m-Left select-pane -L
+bind -n m-Right select-pane -R
+bind -n m-Up select-pane -U
+bind -n m-Down select-pane -D
+set-window-option -g window-style 'fg=colour247,bg=colour235'
+set-window-option -g window-active-style 'fg=colour255,bg=colour237'
+set -g default-terminal "screen-256color"
