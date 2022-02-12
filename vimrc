@@ -44,7 +44,7 @@ set statusline+=\ %F\ %M\ %Y\ %R
 set statusline+=%=
 
 " Status line right side.
-set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
+set statusline+=\ row:\ %l\ col:\ %c\ N:\ %o
 
 " Show the status on the second to last line.
 set laststatus=2
